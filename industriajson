@@ -62,12 +62,3 @@ document.getElementById("demo").innerHTML =
 </script>
 </body>
 </html>
-
-  
-
-/* CODIGO INCOMPLETO*/
-{"global":[{"mercado":[{"industria":{"nbmercancia":"A","funcion":[{"insumo":"coeficiente":1,"nbinsumo":A},]},{"empresas":[{"empresa":{"financieras":{"activo":{"infraestructura":11641,"bancos":1190,"insumo1":149,"insumo2":124,"en_proceso":598,"mercancias":1299,"clientes":1788}
-
-© 2019 GitHub, Inc.
-
- 
