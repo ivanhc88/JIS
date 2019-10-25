@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2019-10-03T08:04:52">
+<empresas>
+<materia>disenio</materia>
+<industria>B</industria>
+<boleta>2018602181</boleta>
+<capital_social>4467</capital_social>
+</empresas>
+</dataroot>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Acceder a los elementos de un objeto</p>
+
+<p id="demo"></p>
+
+<script>
+var objeto = "";
+objeto = {"boleta":"2018602181",
+  "balance":{"activo":{"infraestructura":11641,"bancos":1190,"insumo1":149,"insumo2":124,"en_proceso":598,"mercancias":1299,"clientes":1788},
+             "pasivo":{"proveedores":1655,"hipotecas":8497}
+            }
+  };
+  
+document.getElementById("demo").innerHTML = 
+"boleta: "+ objeto.boleta + "<br>" 
++ "insumoA: "+objeto.balance.activo.infraestructura + "<br>"
++ "bancos: "+ objeto.balance.activo.bancos + "<br>"
++ "insumoA: "+objeto.balance.activo.insumo1 + "<br>"
++ "insumoA: "+objeto.balance.activo.insumo2 + "<br>"
++ "insumoA: "+objeto.balance.activo.en_proceso + "<br>"
++ "insumoA: "+objeto.balance.activo.mercancias + "<br>"
++ "insumoA: "+objeto.balance.activo.clientes + "<br>"
++ "proveedores: "+objeto.balance.pasivo.proveedores + "<br>";
++ "hipotecas: "+objeto.balance.pasivo.hipotecas + "<br>";
+</script>
+
+</body>
+</html>
+
+
+/* CODIGO INCOMPLETO*/
+{"global":[{"mercado":[{"industria":{"nbmercancia":"A","funcion":[{"insumo":"coeficiente":1,"nbinsumo":A},]},{"empresas":[{"empresa":{"financieras":{"activo":{"infraestructura":11641,"bancos":1190,"insumo1":149,"insumo2":124,"en_proceso":598,"mercancias":1299,"clientes":1788}
+
+© 2019 GitHub, Inc.
